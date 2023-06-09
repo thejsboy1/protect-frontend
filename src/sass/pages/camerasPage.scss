@@ -1,0 +1,27 @@
+@import 'inventoryPage.scss';
+.cameras-table{
+    // width:100%;
+    // border:solid 1px black;
+    // font-size:14px;
+}
+.cameras-table-header-cell{
+    padding:0;
+}
+.cameras-table-header{
+    // background-color:pink;
+    font-size:0.95em;
+    text-align:center;
+    word-wrap:break-word;
+}
+.cameras-table-body{
+    // background-color:yellow;
+    text-align:center;
+}
+.cameras-table-cell{
+    padding:0;
+    word-wrap:break-word;
+    font-size:0.90em;
+}
+.button-cameras-page{
+    @extend .page-button
+}

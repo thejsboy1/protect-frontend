@@ -1,0 +1,10 @@
+.page-button {
+  background-color: #865c8a;
+  border-color: #865c8a;
+  box-shadow: 0px 7px 10px rgba(134, 92, 138, 0.3) !important;
+}
+.page-button:focus, .page-button::selection, .page-button:visited, .page-button:hover, .page-button:active {
+  background-color: #48304a !important;
+  border-color: #48304a !important;
+  box-shadow: 0px 7px 10px rgba(72, 48, 74, 0.5) !important;
+}

@@ -1,0 +1,28 @@
+.side-navbar-container {
+  padding: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 5px 0px 5px -2px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.side-navigation-item:hover, .side-navigation-item:active, .side-navigation-item:visited, .side-navigation-item:link, .side-navigation-item:focus {
+  border-radius: 0;
+  text-decoration: none;
+  box-shadow: none;
+  border-right: solid 0.2em #865c8a;
+  background-color: rgba(134, 92, 138, 0.25);
+}
+
+.side-navigation-item-active {
+  border-radius: 0;
+  text-decoration: none;
+  box-shadow: none;
+  border-right: solid 0.2em #865c8a;
+  background-color: rgba(134, 92, 138, 0.25);
+}
+.side-navigation-item-active:hover, .side-navigation-item-active:focus {
+  text-decoration: none;
+  box-shadow: none;
+  background-color: "blue";
+}

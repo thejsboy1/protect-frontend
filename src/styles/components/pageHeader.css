@@ -1,0 +1,19 @@
+.page-header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 0.5%;
+}
+
+.button-logout {
+  border-color: #48304a;
+  border-radius: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #895070;
+}
+.button-logout:hover, .button-logout:visited, .button-logout:active, .button-logout::selection, .button-logout:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #48304a !important;
+  background-color: #48304a !important;
+}
